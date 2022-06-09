@@ -2,7 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 import { Question } from "./components";
  
-const API_URL = "https://opentdb.com/api.php?amount=10&category=18&difficulty=easy&type=multiple";
+const API_URL = "https://opentdb.com/api.php?amount=10&category=18&difficulty=medium&type=multiple";
 
 export default function App(){
     const [questions, setQuestions] = useState([])
